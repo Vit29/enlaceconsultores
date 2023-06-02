@@ -14,7 +14,7 @@ header{
 header .logo{
     width: 50px;
     height: 50px;
-    background-color: rgb(196, 40, 40);
+    /* background-color: ; */
     margin: 10px;
 }
 
@@ -23,13 +23,16 @@ header nav ul {
 }
 header nav ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 5px 20px;
+    margin: 10px;
+    border: 2px solid rgb(143, 143, 143);
+    border-radius: 30px;
 }
 
 header ul li a {
     text-decoration:none;
     font-size: 1.2rem;
-    color: rgb(57, 73, 214);
+    color: rgb(143, 143, 143);
     font-weight: bold;
     font-family: 'Antonio', sans-serif;
     letter-spacing: 1px;

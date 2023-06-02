@@ -21,8 +21,6 @@ img{
 
 .container-all{
     position: relative;
-    /* max-width: 1000px; */
-    /* border-radius: 6px; */
     overflow: hidden;
     width: 100%;
     /* width: 100vw;
@@ -34,10 +32,6 @@ img{
     transform: translate3d(0,0,0);
     transition:  all 600ms;
     animation: autoplay 20s infinite alternate ease-in-out;
-    /* animation-duration: 7s; */
-    /* animation-direction: alternate; */
-    /* animation-fill-mode: forwards; */
-    /* animation-iteration-count: infinite ; */
 }
 
 .item-slide{
