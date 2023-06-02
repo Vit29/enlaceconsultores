@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: +1;
+    padding: 0 80px;
+    /* background-color: rgba(255, 255, 255, 0.219); */
+    /* backdrop-filter:blur(10px); */
+}
+header .logo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(196, 40, 40);
+    margin: 10px;
+}
+
+header nav ul {
+    list-style:none;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul li a {
+    text-decoration:none;
+    font-size: 1.2rem;
+    color: rgb(57, 73, 214);
+    font-weight: bold;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: 1px;
+}
