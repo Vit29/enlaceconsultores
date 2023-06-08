@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+
 header{
     width: 100%;
     height: auto;
@@ -8,8 +8,6 @@ header{
     position: absolute;
     z-index: +1;
     padding: 0 80px;
-    /* background-color: rgba(255, 255, 255, 0.219); */
-    /* backdrop-filter:blur(10px); */
 }
 header .logo{
     width: 50px;

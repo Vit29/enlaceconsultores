@@ -1,44 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-} */
-
-
-img{
-    /* max-width: 100%; */
-    /* width: 100%;
-    height: 100%; */
-    width: 100vw;
-    height: 100vh;
-    
+body{
+    background-color: #0c0c0c;
 }
+
 #logo{
     width: 40vw;
     height: 20vh;
     border-radius:  0 30px 30px 0;
     opacity: 95%;
-    
 }
 .item-logo{
     position:absolute;
     bottom: 40%;
-    left: -50px;
+    left: -150px;
     z-index: 1;
+    transition: 1s;
+}
+
+.item-logo:hover{
+    transform: translateX(150px);
 }
 
 .container-all{
     position: relative;
     overflow: hidden;
     width: 100%;
-    /* width: 100vw;
-    height: 100vh; */
 }
 
 .slide{
@@ -47,6 +38,11 @@ img{
     transition:  all 600ms;
     animation: autoplay 20s infinite alternate ease-in-out;
     position: relative;
+}
+
+.size{
+    width: 100vw;
+    height: 100vh;
 }
 
 .item-slide{
@@ -73,8 +69,8 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: solid 2px white;
     border-radius: 50px;
     overflow: hidden;
