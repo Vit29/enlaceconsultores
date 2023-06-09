@@ -1,0 +1,76 @@
+.container-contac {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.rectangle-backgraund-contacUs{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(94, 94, 94);
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.rectangle-backgraund-contacUs div{
+    margin-left: 20%;
+}
+
+.rectangle-backgraund-contacUs p{
+    font-size: 4rem;
+    color: gold;
+    text-align: center;
+    border-bottom: 2px solid gold;
+}
+
+.rectangle-backgraund-contacUs li{
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;
+    margin:20px 0;
+    color: #ffffff;
+}
+.container-redes{
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 508px;
+    height: 508px;
+}
+
+.container-redes div{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.container-redes i{
+    font-size: 150px;
+    color: wheat;
+}
+
+/* .container-redes div:hover{
+    background-color: #2f55a4;
+} */
+.color-facebook:hover{
+    color:#2f55a4;
+}
+.color-whats:hover{
+    color: #25d366;
+}
+.color-location-dot:hover{
+    color: rgb(216, 32, 32);
+}
+.color-email:hover{
+    color: rgb(223, 176, 24);
+}
