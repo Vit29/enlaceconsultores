@@ -1,0 +1,68 @@
+.container-nustros-servicios{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poiret One', cursive;    
+}
+
+.container-nustros-servicios div{
+    width: 33.33%;
+    height: 80vh;
+    padding: 30px 0;
+    margin: 0px 20px;
+    position: relative;
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-nustros-servicios div:nth-child(1){
+    background-color: rgb(80, 80, 80);
+    display: none;
+}
+
+
+
+.container-nustros-servicios div p {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+.container-nustros-servicios div ul li{
+    color: white;
+    margin: 20px 5px;
+    font-size: 2.2rem;
+}
+
+.container-nustros-servicios span p {
+    color: gold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.img-confianza{
+    width: 85%;
+}
+.img-cerebro{
+    width: 65%;
+}
+
+.capa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 94%;
+    background-color: rgb(53, 53, 53);
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+}
+
+.capa:hover{
+    opacity: 0%;
+}
