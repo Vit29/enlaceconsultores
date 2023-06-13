@@ -1,16 +1,18 @@
 .container-nustros-servicios{
-    height: 100vh;
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Poiret One', cursive;    
 }
 
 .container-nustros-servicios div{
-    width: 33.33%;
-    height: 80vh;
-    padding: 30px 0;
-    margin: 0px 20px;
+    width: 500px;
+    height: 555px;
+    padding: 30px 0px;
+    margin: 10px 20px;
     position: relative;
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
@@ -21,8 +23,6 @@
     background-color: rgb(80, 80, 80);
     display: none;
 }
-
-
 
 .container-nustros-servicios div p {
     color: rgb(255, 255, 255);

@@ -15,9 +15,6 @@
     position: absolute;
     top: 0;
     background-color: rgb(85, 85, 85);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .img-we{
@@ -27,6 +24,7 @@
     justify-content: center;
     align-items: flex-start;
     z-index: 1;   
+    flex-wrap: wrap;
 }
 
 .img-we img {
