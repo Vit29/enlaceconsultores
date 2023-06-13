@@ -14,7 +14,7 @@
 
 .rectangle-backgraund{
     width: max(90vw,60%);
-    height: max(30vw ,70%);
+    height: max(30vw ,55%);
     position: absolute;
     top: 0;
     z-index: -1;
@@ -33,7 +33,7 @@
 .img-we img {
     width: 400px;
     height: 600px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .we-tex{
@@ -63,3 +63,4 @@
     /* width: 500px; */
     display: inline-block;
 }
+
