@@ -53,8 +53,8 @@
 }
 
 .container-redes div{
-    width: 100px;
-    height: 100px;
+    width: max(10vw, 50px);
+    height: max(10vw, 50px);
     background-color: rgb(29, 29, 29);
     display: flex;
     align-items: center;
@@ -64,7 +64,9 @@
 }
 
 .container-redes i{
-    font-size: 50px;
+    font-size: max(5vw, 20px);
+    /* width: max(10vw, 50px);
+    height: max(10vw, 50px); */
     color: wheat;
 }
 
