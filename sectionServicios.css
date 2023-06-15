@@ -87,6 +87,10 @@
 }
 
 @media (max-width : 600px){
+
+    .container-nustros-servicios{
+        height: auto;
+    }
     .container-nustros-servicios div{
         min-width: 300px;
     }
