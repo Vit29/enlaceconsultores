@@ -5,19 +5,27 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 20px;
+    gap: 1rem;
     font-family: 'Poiret One', cursive;    
 }
 
 .container-nustros-servicios div{
-    width: 500px;
-    height: 555px;
+    width: max(500px);
+    height: 300px;
+    /* flex: 1; */
+    /* height: 555px; */
     padding: 30px 0px;
-    margin: 10px 20px;
-    position: relative;
+    /* margin: 10px 20px; */
+    /* position: relative; */
     background-color: rgb(53, 53, 53);
     border-radius: 20px;
     overflow: hidden;
+    transition: 600ms;
+    position: relative;
 }
+
+
 
 .container-nustros-servicios div:nth-child(1){
     background-color: rgb(80, 80, 80);
@@ -39,15 +47,15 @@
 
 .container-nustros-servicios span p {
     color: gold;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw,2rem);
     margin-bottom: 20px;
 }
 
 .img-confianza{
-    width: 85%;
+    width: 30%;
 }
 .img-cerebro{
-    width: 65%;
+    width: 30%;
 }
 
 .capa{
@@ -56,13 +64,21 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 94%;
+    height: 100%;
     background-color: rgb(53, 53, 53);
     transition: 500ms;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 .capa:hover{
     opacity: 0%;
+}
+
+@media (max-width : 500px){
+    .container-nustros-servicios div:hover{
+        /* flex: 4;     */
+        height: 630px;
+    }
 }
