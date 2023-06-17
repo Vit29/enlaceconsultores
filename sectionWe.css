@@ -47,7 +47,8 @@
     /* border: 2px solid wheat; */
     color: #ffffff;
     text-align: justify;
-    font-size: clamp(.5rem , 4vw, 1.2rem);
+    /* font-size: clamp(1rem , 4vw, 1.2rem); */
+    font-size: 1rem;
     padding: 1rem;
     margin:  0 auto;
     flex: 1;
@@ -67,7 +68,7 @@
     }
 
     .container-we{
-        height: 850px;
+        height: 950px;
     }
 
     .container-img-we{
@@ -84,7 +85,7 @@
     /* border: 2px solid wheat; */
     color: #ffffff;
     text-align: justify;
-    font-size: clamp(.5rem , 4vw, 1.2rem);
+    font-size: 1.1rem;
     padding: 1rem;
     margin:  0 auto;
     flex: 1;
