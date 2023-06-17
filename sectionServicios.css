@@ -91,7 +91,7 @@
 @media (max-width : 600px){
 
     .container-nustros-servicios{
-        height: auto;
+        height: 950px;
     }
     .container-nustros-servicios div{
         min-width: 300px;
