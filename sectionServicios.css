@@ -28,18 +28,9 @@
 
 
 .container-nustros-servicios div:hover{
-    /* height: 100%; */
     flex: 1.5;
     height: 500px;
 }
-
-
-
-
-/* .container-nustros-servicios div:nth-child(1){
-    background-color: rgb(80, 80, 80);
-    display: none;
-} */
 
 .container-nustros-servicios div p {
     color: rgb(255, 255, 255);
@@ -53,14 +44,14 @@
 .container-nustros-servicios div ul li{
     color: white;
     margin: 20px 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
 .container-nustros-servicios span p {
     color: gold;
-    font-size: clamp(1.5rem, 3vw,2rem);
-    margin-bottom: 20px;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    /* margin-bottom: 20px;     */
 }
 
 .img-confianza{
@@ -89,7 +80,7 @@
     opacity: 0%;
 }
 
-@media (max-width : 600px){
+@media (max-width : 700px){
 
     .container-nustros-servicios{
         height: auto;
@@ -99,7 +90,35 @@
     }
 
     .container-nustros-servicios div:hover{
-        /* flex: 4;     */
         height: 100%;
+    }
+}
+
+@media (min-width:701px) and (max-width : 1000px){
+    .container-nustros-servicios span p{
+        text-align: center;
+    }
+
+    .container-nustros-servicios div:hover{
+        flex: 1.8;
+        height:600px;
+    }
+
+    .container-nustros-servicios div p {
+        
+        font-size: 1.1rem;
+        
+    }
+}
+
+@media (min-width:1001px) and (max-width : 1200px){
+    .container-nustros-servicios div p {
+        font-size: 1.2rem;
+        /* background-color: red; */
+    }
+
+    .container-nustros-servicios div:hover{
+        flex: 1.8;
+        /* height:1px; */
     }
 }
