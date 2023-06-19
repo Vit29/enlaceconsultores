@@ -41,11 +41,14 @@ header ul li a:hover{
 header{
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.384);
+        height: 40%;
     }
     
     header nav ul li {
         display: flex;
         justify-content: center;
+        border: 2px solid rgb(235, 141, 0);
+
     }
 
     header ul li a {
@@ -53,6 +56,4 @@ header{
         border: none;
         border-radius: 0;
     }
-
-   
 }
