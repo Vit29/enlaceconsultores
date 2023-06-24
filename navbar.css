@@ -41,7 +41,7 @@ header ul li a:hover{
 header{
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.384);
-        height: 40%;
+        height: 35%;
     }
     
     header nav ul li {

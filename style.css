@@ -13,7 +13,7 @@ body{
     width: 40vw;
     height: 20vh;
     border-radius:  0 30px 30px 0;
-    opacity: 95%;
+    /* opacity: 95%; */
 }
 
 .item-logo{
@@ -177,8 +177,6 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
 .pagination{
     display: none;
 }
-
-
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {

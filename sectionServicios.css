@@ -52,13 +52,24 @@
     color: gold;
     font-size: clamp(1.2rem, 5vw, 1.5rem);
     /* margin-bottom: 20px;     */
+
 }
 
 .img-confianza{
     width: 30%;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    aspect-ratio: 1/1;
+    filter: contrast(10)
+    
 }
 .img-cerebro{
     width: 30%;
+    border: solid 2px black;
+    border-radius: 50%;
+    padding: 5px;
+    filter: invert();
 }
 
 .capa{
@@ -68,7 +79,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(53, 53, 53);
+    background: linear-gradient(to right, #3d3d3d , #202020) ;
     transition: 500ms;
     display: flex;
     flex-direction: column;
