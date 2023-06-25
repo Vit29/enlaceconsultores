@@ -9,6 +9,7 @@ header{
     position: absolute;
     z-index: +1;
     padding: 20px 80px;
+    
 }
 
 header nav ul {
@@ -38,21 +39,33 @@ header ul li a:hover{
 
 @media (max-width: 766px){
     
-header{
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.384);
+    header{
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.534);
         height: 35%;
+        z-index: 10;
+        clip-path: circle( 50px at 0 0);
+        padding: 0;
+        transition: .5s ease all;
     }
-    
+
+    .container-nav{
+        margin: 18px;
+    }
+
+    header:hover{
+        clip-path: circle( 90% at 0 0);
+    }
+        
     header nav ul li {
         display: flex;
         justify-content: center;
-        border: 2px solid rgb(235, 141, 0);
-
+        border: 2px solid rgb(235, 141, 0);        
     }
-
+    
     header ul li a {
-        font-size: 2rem;
+        font-size: 1.8rem;
         border: none;
         border-radius: 0;
     }
