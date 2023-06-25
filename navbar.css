@@ -27,14 +27,15 @@ header ul li a {
     font-family: 'Antonio', sans-serif;
     letter-spacing: 1px;
     padding:  5px 15px;
-    border: 2px solid rgb(235, 141, 0);
     border-radius: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 header ul li a:hover{
     color: white;
     background-color: rgb(235, 141, 0);
-    
+    border: none;
 }
 
 @media (max-width: 766px){
@@ -51,7 +52,7 @@ header ul li a:hover{
     }
 
     .container-nav{
-        margin: 18px;
+        margin: 25px;
     }
 
     header:hover{
@@ -65,7 +66,7 @@ header ul li a:hover{
     }
     
     header ul li a {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         border: none;
         border-radius: 0;
     }
