@@ -9,7 +9,20 @@ header{
     position: absolute;
     z-index: +1;
     padding: 20px 80px;
-    
+}
+
+.container-nav{
+    position: relative;
+}
+
+body i {
+    z-index: 11;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
 }
 
 header nav ul {
