@@ -1,27 +1,21 @@
 
 header{
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
     position: absolute;
-    z-index: +1;
-    padding: 20px 80px;
+    top: 0;
+    z-index: 10;
+    padding: 10px;
 }
 
 .container-nav{
-    position: relative;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
 
-body i {
-    z-index: 11;
-    color: #ffffff;
+header nav i {
+    color: #ad6718;
     font-size: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 10px;
 }
 
@@ -54,24 +48,30 @@ header ul li a:hover{
 @media (max-width: 766px){
     
     header{
-        justify-content: flex-start;
-        align-items: flex-start;
         background-color: rgba(0, 0, 0, 0.534);
         height: 35%;
         z-index: 10;
-        clip-path: circle( 50px at 0 0);
+        clip-path: circle( 50px at 100% 0);
         padding: 0;
         transition: .5s ease all;
     }
 
     .container-nav{
-        margin: 25px;
+        position: relative;
     }
 
-    header:hover{
-        clip-path: circle( 90% at 0 0);
+    header nav i {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
-        
+    
+    header.active{
+        clip-path: circle( 90% at 100% 0);
+    }
+    header nav ul{
+        margin: 30px;
+    }
     header nav ul li {
         display: flex;
         justify-content: center;
