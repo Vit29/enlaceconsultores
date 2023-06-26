@@ -14,7 +14,7 @@ header{
 }
 
 header nav i {
-    color: #ad6718;
+    color: #eb8d00;
     font-size: 20px;
     padding: 10px;
 }
@@ -30,7 +30,7 @@ header nav ul li {
 header ul li a {
     text-decoration:none;
     font-size: 1.2rem;
-    color: rgb(235, 141, 0);
+    color: #eb8d00;
     font-family: 'Antonio', sans-serif;
     letter-spacing: 1px;
     padding:  5px 15px;
