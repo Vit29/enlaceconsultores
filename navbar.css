@@ -5,6 +5,7 @@ header{
     top: 0;
     z-index: 10;
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container-nav{
@@ -22,6 +23,7 @@ header nav i {
 header nav ul {
     list-style:none;
 }
+
 header nav ul li {
     display: inline-block;
     margin: 10px;
@@ -32,11 +34,11 @@ header ul li a {
     font-size: 1.2rem;
     color: #eb8d00;
     font-family: 'Antonio', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     padding:  5px 15px;
     border-radius: 30px;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 header ul li a:hover{

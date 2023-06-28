@@ -13,7 +13,7 @@
 .container-nustros-servicios div{
     flex: 1;
     height: 250px;
-    background-color: rgb(53, 53, 53);
+    background-color: rgba(53, 53, 53, 0);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -25,11 +25,20 @@
     height: 500px;
 }
 
+
 .container-nustros-servicios div p {
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
     text-align: justify;
     padding: 25px;
+}
+
+.container-nustros-servicios div p:nth-child(2){
+    color: gold;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    padding: 0;
+    text-align: center;
+    padding: 5px;
 }
 
 .container-nustros-servicios div ul li{
@@ -39,10 +48,6 @@
     text-align: center;
 }
 
-.container-nustros-servicios span p {
-    color: gold;
-    font-size: clamp(1.2rem, 5vw, 1.5rem);
-}
 
 .img-confianza{
     width: 30%;
@@ -68,7 +73,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background: linear-gradient( #202020, #584e12 ) ;
+    background: linear-gradient( #20202000, #584d12 ) ;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
