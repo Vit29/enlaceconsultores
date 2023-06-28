@@ -91,6 +91,23 @@
     transition: 400ms;
 }
 
+.capa:before{
+    content: '';
+    position: absolute;
+    width:30px;
+    height: 15px;
+    background: white;
+    bottom: 10px;
+    clip-path: polygon(0 0, 49% 100%, 100% 0)
+
+}
+
+.flecha{
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+
 .capa:hover{
     opacity: 0%;
 }
