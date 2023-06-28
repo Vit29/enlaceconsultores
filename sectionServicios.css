@@ -32,6 +32,13 @@
     text-align: justify;
     padding: 25px;
 }
+.container-nustros-servicios div p:nth-child(1){
+    color: gold;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    padding: 0;
+    text-align: center;
+    padding: 5px;
+}
 
 .container-nustros-servicios div p:nth-child(2){
     color: gold;
@@ -39,6 +46,10 @@
     padding: 0;
     text-align: center;
     padding: 5px;
+}
+
+.container-nustros-servicios div ul{
+    list-style: circle;
 }
 
 .container-nustros-servicios div ul li{
