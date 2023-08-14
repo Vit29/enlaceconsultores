@@ -15,9 +15,10 @@ header{
 }
 
 header nav i {
-    color: #eb8d00;
+    color: transparent;
     font-size: 20px;
     padding: 10px;
+    
 }
 
 header nav ul {
@@ -55,26 +56,29 @@ header ul li a:hover{
 @media (max-width: 766px){
     
     header{
-        background-color: rgba(0, 0, 0, 0.534);
-        height: 35%;
+        background-color: whitesmoke;
+        height: 100%;
         z-index: 10;
-        clip-path: circle( 50px at 100% 0);
+        clip-path: circle( 50px at 100% 0%);
         padding: 0;
         transition: .5s ease all;
     }
 
     .container-nav{
         position: relative;
+        justify-content: center;
+        height: 100vh;
     }
 
     header nav i {
+        color: #eb8d00;
         position: absolute;
         top: 0;
         right: 0;
     }
     
     header.active{
-        clip-path: circle( 90% at 100% 0);
+        clip-path: circle( 145% at 100% 0);
     }
     header nav ul{
         margin: 30px;
