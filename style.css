@@ -270,12 +270,12 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
     align-items: start;
 }
 
-.encabesado h1 {
+    .encabesado h1 {
     font-size: 4rem;
     line-height: 60px;
 }
 
-.encabesado p {
+    .encabesado p {
     font-size: .9rem;
     margin-top: 20px;
 }
