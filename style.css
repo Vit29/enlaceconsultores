@@ -240,7 +240,7 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
 
     .item-slide img {
         height: 100vh;
-        width: 200%;
+        width: 250%;
     }
 
     #logo{
