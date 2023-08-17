@@ -3,116 +3,104 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 20px;
-    gap: 1rem;
     font-family: 'Poiret One', cursive;    
 }
 
 .container-nustros-servicios div{
-    flex: 1;
+    /* flex: 1; */
+    width: 320px;
     height: 250px;
-    background-color: rgba(53, 53, 53, 0);
+    /* height: auto; */
+    background-color: rgba(53, 53, 53, 0.87);
     border-radius: 20px;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
     transition: 500ms ;
 }
 
-.container-nustros-servicios div:hover{
+/* .container-nustros-servicios div:hover{
     flex: 1.5;
     height: 500px;
-}
+} */
 
+.container-nustros-servicios div h1 {
+    color: gold;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    text-align: center;
+    letter-spacing: 2px;
+}
 
 .container-nustros-servicios div p {
-    color: rgb(255, 255, 255);
-    font-size: 1.3rem;
-    text-align: justify;
-    padding: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
 }
-.container-nustros-servicios div p:nth-child(1){
+
+
+
+/* .container-nustros-servicios div p:nth-child(1){
     color: gold;
     font-size: clamp(1.2rem, 5vw, 1.5rem);
     padding: 0;
     text-align: center;
     padding: 5px;
-}
+} */
 
-.container-nustros-servicios div p:nth-child(2){
+/* .container-nustros-servicios div p:nth-child(2){
     color: gold;
     font-size: clamp(1.2rem, 5vw, 1.5rem);
     padding: 0;
     text-align: center;
     padding: 5px;
-}
+} */
 
-.container-nustros-servicios div ul{
-    list-style: circle;
-}
 
 .container-nustros-servicios div ul li{
     color: white;
-    margin: 20px 5px;
+    padding: 5px 0;
     font-size: 1.2rem;
-    text-align: center;
-}
-
-
-.img-confianza{
-    width: 30%;
-    border: solid 2px rgb(255, 255, 255);
-    border-radius: 50%;
-    padding: 5px;
-    aspect-ratio: 1/1;
-    filter: contrast(10)
+    text-align: start;
     
 }
-.img-cerebro{
-    width: 30%;
-    border: solid 2px rgb(0, 0, 0);
-    border-radius: 50%;
-    padding: 5px;
-    filter: invert();
-}
 
-.capa{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( #20202000, #584d12 ) ;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    transition: 400ms;
-}
-
-.capa:before{
-    content: '';
-    position: absolute;
-    width:15px;
-    height: 7px;
-    background: white;
-    bottom: 10px;
-    clip-path: polygon(0 0, 49% 100%, 100% 0)
-
-}
-
-.flecha{
+/* .flecha{
     width: 10px;
     height: 10px;
     background: white;
+} */
+
+
+
+@media (max-width : 700px) {
+    .container-nustros-servicios{
+        height: auto;
+        background: #fff;
+    }
+    .container-nustros-servicios{
+        align-items: center;
+        gap: 1rem;   
+    }
+    .container-nustros-servicios div{
+        /* flex: 1; */
+        width: 320px;
+        height: 180px;
+        border-radius: 20px;
+
+        overflow: hidden;
+        transition: 1s all ease;
+    }
+    .container-nustros-servicios div h1 {
+        padding: 13px 0;
+    }
+
+    .container-nustros-servicios div:hover{
+        height: auto;
+    }
 }
 
-.capa:hover{
-    opacity: 0%;
-}
-
-@media (max-width : 700px){
+/* @media (max-width : 700px){
 
     .container-nustros-servicios{
         height: auto;
@@ -127,6 +115,10 @@
 }
 
 @media (min-width:701px) and (max-width : 1000px){
+
+
+
+    
     .container-nustros-servicios span p{
         text-align: center;
     }
@@ -153,4 +145,4 @@
         flex: 1.8;
         
     }
-}
+} */
