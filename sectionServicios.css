@@ -11,7 +11,7 @@
 .card {
     width: 400px;
     height: 250px;
-    background-color: #6B5747;
+    background-color: #001F3F;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -39,7 +39,7 @@
     align-items: end;
     justify-content: start;
     padding: 10px 15px;
-    background: linear-gradient( transparent, #6B5747);
+    background: linear-gradient( transparent, #001F3F);
     position: absolute;
     bottom: 0;
 }
