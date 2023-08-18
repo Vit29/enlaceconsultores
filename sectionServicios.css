@@ -8,15 +8,15 @@
     font-family: 'Poiret One', cursive;    
 }
 
-.container-nustros-servicios div{
+.card {
     /* flex: 1; */
     width: 320px;
     height: 250px;
     /* height: auto; */
-    background-color: rgba(53, 53, 53, 0.87);
+    background-color: #6B5747;
     border-radius: 20px;
     overflow: hidden;
-    /* position: relative; */
+    position: relative;
     transition: 500ms ;
 }
 
@@ -38,7 +38,27 @@
     text-align: center;
 }
 
+.span-card-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 10px 0;
+    background:linear-gradient( #6b574700, #6B5747 ) ;
+    position: absolute;
+    bottom: 0;
+}
 
+.container-nustros-servicios div input {
+    width: 100px;
+    height: 30px;
+    background: orange;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* .container-nustros-servicios div p:nth-child(1){
     color: gold;
@@ -56,13 +76,11 @@
     padding: 5px;
 } */
 
-
 .container-nustros-servicios div ul li{
     color: white;
     padding: 5px 0;
     font-size: 1.2rem;
-    text-align: start;
-    
+    text-align: center;    
 }
 
 /* .flecha{
@@ -76,27 +94,27 @@
 @media (max-width : 700px) {
     .container-nustros-servicios{
         height: auto;
-        background: #fff;
     }
     .container-nustros-servicios{
         align-items: center;
-        gap: 1rem;   
+        gap: 1rem; 
     }
-    .container-nustros-servicios div{
-        /* flex: 1; */
+    .card {
         width: 320px;
         height: 180px;
-        border-radius: 20px;
-
-        overflow: hidden;
-        transition: 1s all ease;
+        
+        
     }
     .container-nustros-servicios div h1 {
         padding: 13px 0;
     }
 
-    .container-nustros-servicios div:hover{
-        height: auto;
+    .input-open-card {
+        height: 500px;
+    }
+
+    .span-hidden {
+        background: transparent;
     }
 }
 
