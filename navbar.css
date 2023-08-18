@@ -79,6 +79,7 @@ header ul li a:hover{
     
     header.active{
         clip-path: circle( 145% at 100% 0);
+        background-color: #141414;
     }
     header nav ul{
         width: 60%;

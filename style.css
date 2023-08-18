@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: #0c0c0c;
+    background-color: #141414;
     font-family: 'Poiret One', cursive;
 }
 
@@ -285,12 +285,6 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {
-    #logo{
-        width: 50vw;
-        height: 10vh;
-        border-radius:  0 30px 30px 0;
-        opacity: 95%;
-    }
 
     .size{
         width: 100%;
