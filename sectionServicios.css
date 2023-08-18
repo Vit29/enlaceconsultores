@@ -17,7 +17,7 @@
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    transition: 500ms ;
+    transition: 500ms;
 }
 
 .container-nustros-servicios div h1 {
@@ -45,6 +45,7 @@
     background: linear-gradient( transparent, #6B5747);
     position: absolute;
     bottom: 0;
+
 }
 
 .container-nustros-servicios div input {
@@ -82,8 +83,8 @@
         gap: 1rem; 
     }
     .card {
-        width: 320px;
-        height: 180px;
+        width: 350px;
+        height: 200px;
     }
 
     .input-open-card {
