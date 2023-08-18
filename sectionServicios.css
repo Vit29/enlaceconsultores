@@ -9,10 +9,8 @@
 }
 
 .card {
-    /* flex: 1; */
-    width: 320px;
+    width: 400px;
     height: 250px;
-    /* height: auto; */
     background-color: #6B5747;
     border-radius: 20px;
     overflow: hidden;
@@ -41,11 +39,9 @@
     align-items: end;
     justify-content: start;
     padding: 10px 15px;
-    /* background: linear-gradient( 180deg,#6b574700 , #6b5747f3 ,#6B5747); */
     background: linear-gradient( transparent, #6B5747);
     position: absolute;
     bottom: 0;
-
 }
 
 .container-nustros-servicios div input {
@@ -88,57 +84,10 @@
     }
 
     .input-open-card {
-        height: 500px;
+        height: 450px;
     }
 
     .span-hidden {
         background: transparent;
     }
 }
-
-/* @media (max-width : 700px){
-
-    .container-nustros-servicios{
-        height: auto;
-    }
-    .container-nustros-servicios div{
-        min-width: 300px;
-    }
-
-    .container-nustros-servicios div:hover{
-        height: 100%;
-    }
-}
-
-@media (min-width:701px) and (max-width : 1000px){
-
-
-
-    
-    .container-nustros-servicios span p{
-        text-align: center;
-    }
-
-    .container-nustros-servicios div:hover{
-        flex: 1.8;
-        height:600px;
-    }
-
-    .container-nustros-servicios div p {
-        
-        font-size: 1.1rem;
-        
-    }
-}
-
-@media (min-width:1001px) and (max-width : 1200px){
-    .container-nustros-servicios div p {
-        font-size: 1.2rem;
-    
-    }
-
-    .container-nustros-servicios div:hover{
-        flex: 1.8;
-        
-    }
-} */
