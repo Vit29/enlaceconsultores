@@ -3,19 +3,15 @@ const menu = document.getElementById('open-menu');
 const inputCard = document.getElementById('input-card');
 const inputCardConsejo = document.getElementById('input-card-consejo');
 const inputCardServices = document.getElementById('input-card-services');
-let more = document.querySelector('.more')
-
-more.addEventListener('click' , () => {
-    more.classList.toggle('active_card');
-    more.classList.toggle('more-bg');
-})
+let more = document.querySelectorAll('.more')
 
 
-// for (let i = 0; i <more.length; i++) {
-//     more[i].addEventListener('click', function(){
-//         more[i].parentNode.classList.toggle('more-bg')
-//     })
-// }
+for (let i = 0; i <more.length; i++) {
+    more[i].addEventListener('click', function(){
+        more[i].classList.toggle('more-bg')
+        more[i].classList.toggle('active_card')
+    })
+}
 
 // BOTON MENU
 menu.addEventListener('click', () => {

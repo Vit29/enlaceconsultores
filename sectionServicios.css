@@ -83,8 +83,6 @@
     content: 'Leer menos';
 }
 
-
-
 .input-open-card {
     height: 425px;
 }
@@ -92,12 +90,15 @@
 .span-hidden {
     background: transparent;
 }
+.container-nustros-servicios div ul {
+    padding: 0  0 0 70px;
+}
 
 .container-nustros-servicios div ul li{
     color: white;
     padding: 5px 0;
     font-size: 1.2rem;
-    text-align: center;    
+    text-align: start;    
 }
 
 
