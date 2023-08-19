@@ -104,7 +104,7 @@
 
 @media (max-width : 700px) {
     .container-nustros-servicios{
-        height: 100vh;
+        height: auto;
     }
     .container-nustros-servicios{
         align-items: center;
