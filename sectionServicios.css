@@ -54,6 +54,37 @@
     cursor: pointer;
 }
 
+.more {
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    background: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.more-bg {
+    background: rgb(134, 130, 130);
+}
+
+.more::before {
+    content: 'Leer más';
+    
+}  
+
+.more.active_card::before {
+    content: 'Leer menos';
+}
+
+
+
 .input-open-card {
     height: 425px;
 }
@@ -86,7 +117,7 @@
     .input-open-card {
         height: 450px;
     }
-
+    
     .span-hidden {
         background: transparent;
     }

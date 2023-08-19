@@ -3,9 +3,21 @@ const menu = document.getElementById('open-menu');
 const inputCard = document.getElementById('input-card');
 const inputCardConsejo = document.getElementById('input-card-consejo');
 const inputCardServices = document.getElementById('input-card-services');
+let more = document.querySelector('.more')
 
-// const spanCardInput = document.getElementById('span-card-input');
+more.addEventListener('click' , () => {
+    more.classList.toggle('active_card');
+    more.classList.toggle('more-bg');
+})
 
+
+// for (let i = 0; i <more.length; i++) {
+//     more[i].addEventListener('click', function(){
+//         more[i].parentNode.classList.toggle('more-bg')
+//     })
+// }
+
+// BOTON MENU
 menu.addEventListener('click', () => {
     document.getElementById('header-toggle').classList.toggle('active');
 })
@@ -28,4 +40,7 @@ inputCardConsejo.addEventListener('click', () => {
     document.getElementById('span-card-input-consejo').classList.toggle('span-hidden')
     document.getElementById('un-consejo').classList.toggle('input-open-card');
 
+
 })
+
+
