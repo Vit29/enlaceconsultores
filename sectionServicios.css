@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Montserrat:wght@900&family=Nunito&family=Poiret+One&family=Poppins:wght@600&family=Rubik&family=Ubuntu&display=swap');
+
 .container-nustros-servicios{
     width: 100%;
     height: 100vh;
@@ -61,13 +63,14 @@
     background: orange;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: .9rem;
     padding: 5px;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s;
+    transition: 800ms;
+    font-family: 'Nunito';
 }
 
 .more-bg {
@@ -108,7 +111,7 @@
     }
     .container-nustros-servicios{
         align-items: center;
-        gap: 1rem; 
+        gap: 2rem; 
     }
     .card {
         width: 350px;
