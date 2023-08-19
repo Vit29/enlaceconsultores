@@ -52,11 +52,14 @@
 @media (max-width: 700px){
     
     .container-we{
-        height: 950px;
+        height: auto;
+        justify-content: space-around;
     }
 
     .rectangle-backgraund{
     flex-wrap: wrap;
+    margin: 20px 0;
+    
     }
 }
 
