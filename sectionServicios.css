@@ -108,10 +108,9 @@
 @media (max-width : 700px) {
     .container-nustros-servicios{
         height: auto;
-    }
-    .container-nustros-servicios{
         align-items: center;
         gap: 2rem; 
+        padding: 2rem 0;
     }
     .card {
         width: 350px;
