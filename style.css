@@ -12,14 +12,6 @@ body{
     font-family: 'Poiret One', cursive;
 }
 
-
-#logo{
-    width: 40vw;
-    height: 20vh;
-    border-radius:  0 30px 30px 0;
-}
-
-
 .encabesado {
     position: absolute;
     top: 30%;
@@ -29,11 +21,9 @@ body{
     text-align: left;
     font-family: 'montserrat', sans-serif;
     text-transform: uppercase;
-
     display: flex;
     flex-direction: column;
     align-items: start;
-
 }
 
 .encabesado h1 {
@@ -278,7 +268,6 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
     .encabesado p {
     font-size: .9rem;
     margin-top: 20px;
-    padding: 0 25px;
 }
 
 
