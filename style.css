@@ -7,9 +7,20 @@
     
     scroll-behavior: smooth;
 }
+
 body{
     background-color: #141414;
     font-family: 'Poiret One', cursive;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: orange ;
 }
 
 .encabesado {
@@ -29,7 +40,6 @@ body{
 .encabesado h1 {
     color: orange;
     font-size: 4.5rem;
-
 }
 
 .encabesado p {
@@ -66,26 +76,10 @@ body{
     color: #fff;
 }
 
-
-.item-logo{
-    position:absolute;
-    bottom: 40%;
-    left: -150px;
-    z-index: 1;
-    transition: 1s;
-}
-
-.item-logo:hover{
-    transform: translateX(150px);
-}
-
 .container-all{
     position: relative;
     overflow: hidden;
     width: 100%;
-    
-    /* height: 100vh; */
-    
 }
 
 .slide{
@@ -269,8 +263,6 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
     font-size: .9rem;
     margin-top: 20px;
 }
-
-
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {
@@ -278,7 +270,5 @@ input[id='5']:checked ~ .pagination .pagination-item[for='5']{
     .size{
         width: 100%;
         height: 100%;
-    }
-    
-    
+    } 
 }
