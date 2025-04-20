@@ -25,7 +25,11 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgb(73, 71, 71);
+}
+
+.div-pulsante {
     animation: pulsante 1.5s infinite;
+    border-radius: 50%;
 }
 
 @keyframes pulsante {
