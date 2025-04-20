@@ -27,20 +27,6 @@
     background-color: rgb(73, 71, 71);
 }
 
-.div-pulsante {
-    animation: pulsante 1.5s infinite;
-    border-radius: 50%;
-}
-
-@keyframes pulsante {
-    0% {
-        box-shadow: rgb(73, 71, 71) 0 0 0 0;
-    } 
-    100% {
-        box-shadow: #141414 0 0 5px 20px;
-    }
-}
-
 .container-contac ul p{
     font-size: 2rem;
     color: gold;
