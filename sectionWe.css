@@ -111,7 +111,8 @@
 
   .imgs-muestra-container::before,
   .imgs-muestra-container::after {
-    content: "hola";
+    /* content: "Bienes"; */
+    font-size: 3rem;
     position: absolute;
     border: solid 2px white;
     border-radius: 50%;
@@ -120,18 +121,25 @@
     z-index: -5;
     /* top: calc(20%); */
     /* background-color: purple; */
+    color: white;
+    /* font-size: 5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 3px #ffffff;
   }
 
   .imgs-muestra-container::after {
-      bottom: -30px;
-      left: calc(50% - 50px);
-      width: 250px;
-      height: 250px;
-
-  }
-  .imgs-muestra-container::before {
+    content: "Raices";
+    bottom: -30px;
+    left: calc(50% - 50px);
+    width: 250px;
+    height: 250px;
+}
+.imgs-muestra-container::before {
+    content: "Bienes";
     bottom: 60%;
-    left: -30%;
+    left: -20%;
   }
 
   .imgs-muestra-container img:nth-child(1) {
