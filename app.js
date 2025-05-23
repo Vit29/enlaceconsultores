@@ -3,6 +3,7 @@ const inputCard = document.getElementById("input-card");
 const inputCardConsejo = document.getElementById("input-card-consejo");
 const inputCardServices = document.getElementById("input-card-services");
 const sectionNosotros = document.getElementById("quienes-somos");
+const sectionImgMuestra = document.getElementById("img-muestra");
 const sectionNustrosServicios = document.getElementById("nuestros-servicios");
 const sectionVideoInfo = document.getElementById("video-info");
 const sectionContact = document.getElementById("contac");
@@ -53,7 +54,8 @@ window.addEventListener("scroll", () => {
   const section = Math.round(scrollY / sizeHeight);
 
   if (section == 1) sectionNosotros.classList.add("show");
-  if (section == 2) sectionNustrosServicios.classList.add("show");
-  if (section == 3) sectionVideoInfo.classList.add("show");
-  if (section == 4) sectionContact.classList.add("show");
+  if (section == 2) sectionImgMuestra.classList.add("show");
+  if (section == 3) sectionNustrosServicios.classList.add("show");
+  if (section == 4) sectionVideoInfo.classList.add("show");
+  if (section == 5) sectionContact.classList.add("show");
 });

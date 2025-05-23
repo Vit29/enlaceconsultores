@@ -239,6 +239,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"] {
 }
 
 .container-we,
+.imgs-muestra,
 .container-nustros-servicios,
 .video-info,
 .container-contac {
