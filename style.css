@@ -245,7 +245,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"] {
 .container-contac {
   opacity: 0;
   transform: translateY(30%);
-  transition: 2s ease;
+  transition: 1s ease;
 }
 
 .show {
