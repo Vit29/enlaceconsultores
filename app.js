@@ -10,6 +10,17 @@ const sectionContact = document.getElementById("contac");
 
 let more = document.querySelectorAll(".more");
 
+function videoShow() {
+  window.addEventListener("DOMContentLoaded", () => {
+    if (window.innerWidth > 765) {
+      sectionVideoInfo.innerHTML = `
+          <video class="size" src="./video/promo-video-pc.mp4" controls="">
+          </video>
+        `;
+    }
+  });
+}
+
 // BOTON MENU
 menu.addEventListener("click", () => {
   document.getElementById("header-toggle").classList.toggle("active");
@@ -59,3 +70,6 @@ window.addEventListener("scroll", () => {
   if (section == 4) sectionVideoInfo.classList.add("show");
   if (section == 5) sectionContact.classList.add("show");
 });
+
+
+videoShow()

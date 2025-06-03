@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-family: 'Poiret One', cursive;    
+    font-family: 'Poiret One', cursive;
+    /* background: mediumpurple;     */
 }
 
 .card {
