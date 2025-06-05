@@ -9,16 +9,25 @@ const sectionVideoInfo = document.getElementById("video-info");
 const sectionContact = document.getElementById("contac");
 
 let more = document.querySelectorAll(".more");
+const sizeMobile = 766;
 
-function videoShow() {
-  window.addEventListener("DOMContentLoaded", () => {
-    if (window.innerWidth > 765) {
-      sectionVideoInfo.innerHTML = `
-          <video class="size" src="./video/promo-video-pc.mp4" controls="">
-          </video>
-        `;
-    }
-  });
+function handleResponsiveVideo() {
+  if (!sectionVideoInfo) return;
+  sectionVideoInfo.innerHTML = "";
+
+  const video = document.createElement("video");
+  video.className = "size";
+  video.controls = true;
+  video.autoplay = true;
+  video.muted = true;
+  video.playsInline = true;
+
+  video.src =
+    window.innerWidth > sizeMobile
+      ? "./video/promo-video-pc.mp4"
+      : "./video/promo-video-mobile.mp4";
+
+  sectionVideoInfo.appendChild(video);
 }
 
 // BOTON MENU
@@ -71,5 +80,4 @@ window.addEventListener("scroll", () => {
   if (section == 5) sectionContact.classList.add("show");
 });
 
-
-videoShow()
+handleResponsiveVideo();
